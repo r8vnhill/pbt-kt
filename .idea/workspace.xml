@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="57dc96d5-d5c6-4400-9dc9-219c4d0e1a44" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/detekt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/cl/ravenhill/Echo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/BinarySearchTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/BubbleSortTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/CapitalizeWordsTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/MergeTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/NonEmptyListTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/QueueTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ReverseTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/RobotTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/StringLengthTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/composition/TeamTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/prng/BiggestTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/prng/IntStringMapTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/transform/LibraryTest.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.kotest/kotest-property-jvm/5.9.0/5347c1cfac5914e42f55e79d89a7ed81d7387116/kotest-property-jvm-5.9.0-sources.jar!/commonMain/io/kotest/property/randoms.kt" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.0.0/84cdfeb1d3e1b3f72cc4e0a3803c85c4727312f1/kotlin-stdlib-2.0.0-sources.jar!/jvmMain/kotlin/Char.kt" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2gfZOUwmL17Ry15oSl8hdF554dV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.BiggestHandTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BiggestHandTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BiggestTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BubbleSortTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BubbleSortTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build pbt-kt.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CapitalizeWordsTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CapitalizeWordsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.IntStringMapTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NonEmptyListTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NonEmptyListTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.QueueTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.pbt-kt [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.pbt-kt [createAllExecutables].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.pbt-kt [jar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.pbt-kt [run].executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.pbt-kt.jar.executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.BiggestTest: Biggest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.BiggestTest: Biggest (2).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.BiggestTest: Biggest (3).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.BiggestTest: Biggest.executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.BiggestTest: a (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.BiggestTest: a.executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.BiggestTest: should return the biggest number in the list.executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.BiggestTest: should return the only number on a list with one element (no pbt) (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.BiggestTest: should return the only number on a list with one element (no pbt) (2).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.BiggestTest: should return the only number on a list with one element (no pbt) (3).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.BiggestTest: should return the only number on a list with one element (no pbt) (4).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.BiggestTest: should return the only number on a list with one element (no pbt) (5).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.BiggestTest: should return the only number on a list with one element (no pbt).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.BinarySearchTest: Binary search should be equivalent to sequential search (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.BinarySearchTest: Binary search should be equivalent to sequential search.executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.BubbleSortTest: Bubble sort should be equal to insertion sort.executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.CapitalizeWordsTest: Capitalize Words.executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.CapitalizeWordsTest: empty words and multiple spaces should not affect capitalization (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Kotest.CapitalizeWordsTest: empty words and multiple spaces should not affect capitalization.executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.CapitalizeWordsTest: only the first letter of each word should be uppercase (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.CapitalizeWordsTest: only the first letter of each word should be uppercase (2).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.CapitalizeWordsTest: only the first letter of each word should be uppercase.executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.IntStringMapTest: should have a uniform distribution.executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.NonEmptyListTest: should never be empty (assume).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.QueueTest: Two queues created with the same size (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.QueueTest: Two queues created with the same size.executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.RobotTest: Robot (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.RobotTest: Robot.executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.StringLengthTest: The length of concatenated strings.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Documentos/Code/keen&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;kotlin-gradle-user-dirs&quot;: [
+      &quot;C:\\Users\\usuario\\.gradle&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Documentos\Code\Teaching\pbt-kt\src\test\kotlin\prng" />
+      <recent name="E:\Documentos\Code\Teaching\pbt-kt\src\main\kotlin\cl\ravenhill" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.pbt-kt [jar]">
+    <configuration name="IntStringMapTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;prng.IntStringMapTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="pbt-kt [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="pbt-kt.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/build/libs/pbt-kt.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="IntStringMapTest: should have a uniform distribution" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="pbt-kt.test" />
+      <option name="jrePath" value="" />
+      <option name="jrePathEnabled" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="prng.IntStringMapTest" />
+      <option name="testPath" value="IntStringMap -- should have a uniform distribution" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RobotTest: Robot (1)" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="pbt-kt.test" />
+      <option name="jrePath" value="" />
+      <option name="jrePathEnabled" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="RobotTest" />
+      <option name="testPath" value="Robot" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.pbt-kt [jar]" />
+        <item itemvalue="JAR Application.pbt-kt.jar" />
+        <item itemvalue="Kotest.IntStringMapTest: should have a uniform distribution" />
+        <item itemvalue="Gradle.IntStringMapTest" />
+        <item itemvalue="Kotest.RobotTest: Robot (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.18071.24" />
+        <option value="bundled-js-predefined-d6986cc7102b-cec29f6fc0a3-JavaScript-IU-242.18071.24" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57dc96d5-d5c6-4400-9dc9-219c4d0e1a44" name="Changes" comment="" />
+      <created>1716090562630</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716090562630</updated>
+      <workItem from="1716090563902" duration="522000" />
+      <workItem from="1716091119792" duration="1631000" />
+      <workItem from="1716159610192" duration="3328000" />
+      <workItem from="1716182518080" duration="2487000" />
+      <workItem from="1716186262493" duration="327000" />
+      <workItem from="1716245360757" duration="4238000" />
+      <workItem from="1716585520310" duration="2733000" />
+      <workItem from="1716662492407" duration="46000" />
+      <workItem from="1716683080293" duration="3083000" />
+      <workItem from="1716747127245" duration="49000" />
+      <workItem from="1716850995484" duration="315000" />
+      <workItem from="1716851375699" duration="5686000" />
+      <workItem from="1716867473645" duration="3080000" />
+      <workItem from="1716954302516" duration="20695000" />
+      <workItem from="1717118429520" duration="4504000" />
+      <workItem from="1717194531151" duration="4422000" />
+      <workItem from="1717446082471" duration="288000" />
+      <workItem from="1717446397074" duration="3881000" />
+      <workItem from="1717453394972" duration="1766000" />
+      <workItem from="1717458826177" duration="2452000" />
+      <workItem from="1717464029770" duration="2508000" />
+      <workItem from="1719628770816" duration="68000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
