@@ -1,14 +1,17 @@
+import java.util.*
+
 plugins {
-    id("kotlin-jvm") version "2.0.0"
+    kotlin("jvm")
+    id("io.gitlab.arturbosch.detekt")
 }
 
-group = "cl.ravenhill"
-version = "1.0-SNAPSHOT"
-
-repositories {
-    mavenCentral()
+allprojects {
+    group = "pbt-kt"
+    version = extra["pbt-kt.version"] as String
 }
 
-tasks.test {
-    useJUnitPlatform()
+subprojects {
+    repositories {
+        mavenCentral()
+    }
 }

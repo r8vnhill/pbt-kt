@@ -9,15 +9,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/generalization" />
-        <option name="gradleHome" value="" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/generalization" />
+            <option value="$PROJECT_DIR$/symmetric-properties" />
           </set>
         </option>
       </GradleProjectSettings>
