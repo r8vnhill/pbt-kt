@@ -4,7 +4,8 @@ include(
     ":introduction",
     ":symmetric-properties",
     ":filter",
-    ":assumptions"
+    ":assumptions",
+    ":generators",
 )
 
 pluginManagement {

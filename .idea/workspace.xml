@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17a4d970-c7a9-4d4c-904a-7a4e649b9949" name="Changes" comment="✨✅️ Add reverse function and unit tests&#10;&#10;Implemented a generic function to reverse lists and added comprehensive unit tests using Kotest. Updated IntelliJ run configurations to include the new tests.">
+    <list default="true" id="17a4d970-c7a9-4d4c-904a-7a4e649b9949" name="Changes" comment="✨✅⚙️ Add capitalizeWords extension function and tests&#10;&#10;Implemented a Kotlin extension function capitalizeWords to capitalize the first letter of each word in a string. Comprehensive unit tests using Kotest ensure the function behaves as expected across various input scenarios. Updated IntelliJ run configurations to include these new tests for seamless integration into the development workflow.">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -56,6 +58,8 @@
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Gradle.Build pbt-kt.executor": "Run",
+    "Gradle.ListTest (1).executor": "Run",
+    "Gradle.ListTest.executor": "Run",
     "Gradle.StringLengthTest.executor": "Run",
     "Kotest.BiggestTest: The biggest element in a list (1).executor": "Run",
     "Kotest.BiggestTest: The biggest element in a list.executor": "Run",
@@ -68,7 +72,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Documentos/Code/Teaching/pbt-kt/introduction",
+    "last_opened_file_path": "E:/Documentos/Code/Teaching/pbt-kt/generators/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,6 +83,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Documentos\Code\Teaching\pbt-kt\generators\src" />
+      <recent name="E:\Documentos\Code\Teaching\pbt-kt\generators" />
       <recent name="E:\Documentos\Code\Teaching\pbt-kt\introduction" />
       <recent name="E:\Documentos\Code\Teaching\pbt-kt\assumptions" />
       <recent name="E:\Documentos\Code\Teaching\pbt-kt\filter" />
@@ -88,21 +94,30 @@
       <recent name="cl.ravenhill.strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotest.CapitalizeTest: Capitalization (1)">
-    <configuration name="BiggestTest: The biggest element in a list (1)" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
-      <module name="pbt-kt.introduction.test" />
-      <option name="jrePath" value="" />
-      <option name="jrePathEnabled" value="false" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
-      <option name="programParameters" value="" />
-      <option name="specName" value="cl.ravenhill.biggest.BiggestTest" />
-      <option name="testPath" value="The biggest element in a list" />
-      <option name="packageName" value="" />
-      <option name="vmparams" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Kotest.MapTest: The biggest key in a map (1)">
+    <configuration name="ListTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":generators:test" />
+            <option value="--tests" />
+            <option value="&quot;cl.ravenhill.lists.ListTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
     <configuration name="CapitalizeTest: Capitalization (1)" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
       <module name="pbt-kt.introduction.test" />
@@ -134,30 +149,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CapitalizeTest: Capitalizing a string" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
-      <module name="pbt-kt.introduction.test" />
+    <configuration name="MapTest: The biggest key in a map (1)" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="pbt-kt.generators.test" />
       <option name="jrePath" value="" />
       <option name="jrePathEnabled" value="false" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
-      <option name="specName" value="cl.ravenhill.strings.CapitalizeTest" />
-      <option name="testPath" value="Capitalizing a string" />
+      <option name="specName" value="cl.ravenhill.maps.MapTest" />
+      <option name="testPath" value="The biggest key in a map" />
       <option name="packageName" value="" />
       <option name="vmparams" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseTest: Reversing a list" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
-      <module name="pbt-kt.introduction.test" />
+    <configuration name="MapTest: The biggest key in a map" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="pbt-kt.generators.test" />
       <option name="jrePath" value="" />
       <option name="jrePathEnabled" value="false" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
-      <option name="specName" value="cl.ravenhill.reverse.ReverseTest" />
-      <option name="testPath" value="Reversing a list" />
+      <option name="specName" value="cl.ravenhill.maps.MapTest" />
+      <option name="testPath" value="The biggest key in a map" />
       <option name="packageName" value="" />
       <option name="vmparams" value="" />
       <method v="2">
@@ -166,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotest.MapTest: The biggest key in a map (1)" />
+        <item itemvalue="Kotest.MapTest: The biggest key in a map" />
+        <item itemvalue="Gradle.ListTest (1)" />
         <item itemvalue="Kotest.CapitalizeTest: Capitalization (1)" />
         <item itemvalue="Kotest.CapitalizeTest: Capitalization" />
-        <item itemvalue="Kotest.CapitalizeTest: Capitalizing a string" />
-        <item itemvalue="Kotest.ReverseTest: Reversing a list" />
-        <item itemvalue="Kotest.BiggestTest: The biggest element in a list (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +210,8 @@
       <workItem from="1720022086618" duration="502000" />
       <workItem from="1720414565121" duration="43000" />
       <workItem from="1720479054794" duration="23000" />
-      <workItem from="1720577248834" duration="4892000" />
+      <workItem from="1720577248834" duration="5206000" />
+      <workItem from="1720643706641" duration="752000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor project structure and update dependencies&#10;&#10;Removed the `generalization` module and its related files, including configuration and tests. Added a new `symmetric-properties` module with initial implementations for Encode/Decode and list transformation functions. Updated project properties and configuration files accordingly.">
       <option name="closed" value="true" />
@@ -229,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720581360102</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="✨✅⚙️ Add capitalizeWords extension function and tests&#10;&#10;Implemented a Kotlin extension function capitalizeWords to capitalize the first letter of each word in a string. Comprehensive unit tests using Kotest ensure the function behaves as expected across various input scenarios. Updated IntelliJ run configurations to include these new tests for seamless integration into the development workflow.">
+      <option name="closed" value="true" />
+      <created>1720582576522</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720582576522</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +265,7 @@
     <MESSAGE value="✨️✅ Add new modules: assumptions, filter, and introduction&#10;&#10;This commit introduces three new modules: assumptions, filter, and introduction, each with its own build.gradle.kts. It also includes initial Kotlin code and corresponding tests for string manipulation and merging functionality. Additionally, project configuration files have been updated to include these new modules." />
     <MESSAGE value="✨✅ Add biggest function and corresponding tests&#10;&#10;Implemented the biggest function to find the max integer in a list, returning Int.MIN_VALUE for empty lists. Added comprehensive tests for the function using Kotest. Also included tests for string length properties." />
     <MESSAGE value="✨✅️ Add reverse function and unit tests&#10;&#10;Implemented a generic function to reverse lists and added comprehensive unit tests using Kotest. Updated IntelliJ run configurations to include the new tests." />
-    <option name="LAST_COMMIT_MESSAGE" value="✨✅️ Add reverse function and unit tests&#10;&#10;Implemented a generic function to reverse lists and added comprehensive unit tests using Kotest. Updated IntelliJ run configurations to include the new tests." />
+    <MESSAGE value="✨✅⚙️ Add capitalizeWords extension function and tests&#10;&#10;Implemented a Kotlin extension function capitalizeWords to capitalize the first letter of each word in a string. Comprehensive unit tests using Kotest ensure the function behaves as expected across various input scenarios. Updated IntelliJ run configurations to include these new tests for seamless integration into the development workflow." />
+    <option name="LAST_COMMIT_MESSAGE" value="✨✅⚙️ Add capitalizeWords extension function and tests&#10;&#10;Implemented a Kotlin extension function capitalizeWords to capitalize the first letter of each word in a string. Comprehensive unit tests using Kotest ensure the function behaves as expected across various input scenarios. Updated IntelliJ run configurations to include these new tests for seamless integration into the development workflow." />
   </component>
 </project>
