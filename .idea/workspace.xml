@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17a4d970-c7a9-4d4c-904a-7a4e649b9949" name="Changes" comment="✨ Add Suit and Rank enums with test cases&#10;&#10;Introduced `Suit` and `Rank` enums to represent card suits and ranks, respectively. Added `CardsTest` class to validate card hand integrity using these enums. Updated IntelliJ configurations to include tests for these additions." />
+    <list default="true" id="17a4d970-c7a9-4d4c-904a-7a4e649b9949" name="Changes" comment="Add Role enum and TeamTest class&#10;&#10;Introduced `Role` enum to define team roles (LEADER, DEVELOPER, TESTER). Created `TeamTest` class to validate the presence of these roles in a team using property-based testing with Kotest. Updated IntelliJ run configurations for the new test class.">
+      <change beforePath="$PROJECT_DIR$/generators/src/test/kotlin/cl/ravenhill/cards/CardsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/generators/src/test/kotlin/cl/ravenhill/cards/CardsTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generators/src/test/kotlin/cl/ravenhill/teams/TeamTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/generators/src/test/kotlin/cl/ravenhill/teams/TeamTest.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,8 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Enum" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -71,6 +74,7 @@
     "Kotest.MapTest: The biggest key in a map (1).executor": "Run",
     "Kotest.MapTest: The biggest key in a map.executor": "Run",
     "Kotest.ReverseTest: Reversing a list.executor": "Run",
+    "Kotest.TeamTest: A team.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -204,7 +208,7 @@
       <workItem from="1720414565121" duration="43000" />
       <workItem from="1720479054794" duration="23000" />
       <workItem from="1720577248834" duration="5206000" />
-      <workItem from="1720643706641" duration="1799000" />
+      <workItem from="1720643706641" duration="2298000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor project structure and update dependencies&#10;&#10;Removed the `generalization` module and its related files, including configuration and tests. Added a new `symmetric-properties` module with initial implementations for Encode/Decode and list transformation functions. Updated project properties and configuration files accordingly.">
       <option name="closed" value="true" />
@@ -262,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720645410392</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add Role enum and TeamTest class&#10;&#10;Introduced `Role` enum to define team roles (LEADER, DEVELOPER, TESTER). Created `TeamTest` class to validate the presence of these roles in a team using property-based testing with Kotest. Updated IntelliJ run configurations for the new test class.">
+      <option name="closed" value="true" />
+      <created>1720645913160</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720645913160</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +289,7 @@
     <MESSAGE value="✨✅⚙️ Add capitalizeWords extension function and tests&#10;&#10;Implemented a Kotlin extension function capitalizeWords to capitalize the first letter of each word in a string. Comprehensive unit tests using Kotest ensure the function behaves as expected across various input scenarios. Updated IntelliJ run configurations to include these new tests for seamless integration into the development workflow." />
     <MESSAGE value="✨ Add `biggest` functions and tests&#10;&#10;Implemented functions to find the biggest integer in a list (`biggest`) and the biggest key in a map (`biggestKey`). Added comprehensive unit tests using Kotest to verify functionality. Updated project configuration files and IntelliJ run configurations accordingly." />
     <MESSAGE value="✨ Add Suit and Rank enums with test cases&#10;&#10;Introduced `Suit` and `Rank` enums to represent card suits and ranks, respectively. Added `CardsTest` class to validate card hand integrity using these enums. Updated IntelliJ configurations to include tests for these additions." />
-    <option name="LAST_COMMIT_MESSAGE" value="✨ Add Suit and Rank enums with test cases&#10;&#10;Introduced `Suit` and `Rank` enums to represent card suits and ranks, respectively. Added `CardsTest` class to validate card hand integrity using these enums. Updated IntelliJ configurations to include tests for these additions." />
+    <MESSAGE value="Add Role enum and TeamTest class&#10;&#10;Introduced `Role` enum to define team roles (LEADER, DEVELOPER, TESTER). Created `TeamTest` class to validate the presence of these roles in a team using property-based testing with Kotest. Updated IntelliJ run configurations for the new test class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Role enum and TeamTest class&#10;&#10;Introduced `Role` enum to define team roles (LEADER, DEVELOPER, TESTER). Created `TeamTest` class to validate the presence of these roles in a team using property-based testing with Kotest. Updated IntelliJ run configurations for the new test class." />
   </component>
 </project>

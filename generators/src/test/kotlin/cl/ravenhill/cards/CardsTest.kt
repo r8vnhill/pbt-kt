@@ -1,7 +1,6 @@
 package cl.ravenhill.cards
 
 import io.kotest.core.spec.style.FreeSpec
-import io.kotest.matchers.booleans.shouldBeTrue
 import io.kotest.matchers.collections.shouldContain
 import io.kotest.property.Arb
 import io.kotest.property.arbitrary.element
@@ -29,3 +28,9 @@ private fun arbCard() = Arb.pair(
 )
 
 private fun arbHand() = Arb.list(arbCard(), 1..10)
+
+// Better implementation of the above code
+//private fun arbCard() = Arb.pair(
+//    Arb.enum<Suit>(),
+//    Arb.enum<Rank>()
+//)

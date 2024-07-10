@@ -22,3 +22,6 @@ class TeamTest : FreeSpec({
 private fun arbMember() = Arb.element(Role.entries.toList())
 
 private fun arbTeam() = Arb.list(arbMember(), 1..10)
+
+// Better implementation of the above code
+//private fun arbMember() = Arb.enum<Role>()
