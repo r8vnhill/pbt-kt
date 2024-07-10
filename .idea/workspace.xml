@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17a4d970-c7a9-4d4c-904a-7a4e649b9949" name="Changes" comment="✨🔍 Add `biggest` functions and tests&#10;&#10;Implemented functions to find the biggest integer in a list (`biggest`) and the biggest key in a map (`biggestKey`). Added comprehensive unit tests using Kotest to verify functionality. Updated project configuration files and IntelliJ run configurations accordingly.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="17a4d970-c7a9-4d4c-904a-7a4e649b9949" name="Changes" comment="✨ Add Suit and Rank enums with test cases&#10;&#10;Introduced `Suit` and `Rank` enums to represent card suits and ranks, respectively. Added `CardsTest` class to validate card hand integrity using these enums. Updated IntelliJ configurations to include tests for these additions." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +96,7 @@
       <recent name="cl.ravenhill.strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotest.CardsTest: A hand of cards (2)">
+  <component name="RunManager" selected="Kotest.TeamTest: A team">
     <configuration name="CardsTest: A hand of cards (1)" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
       <module name="pbt-kt.generators.test" />
       <option name="jrePath" value="" />
@@ -159,15 +157,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapTest: The biggest key in a map" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+    <configuration name="TeamTest: A team" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
       <module name="pbt-kt.generators.test" />
       <option name="jrePath" value="" />
       <option name="jrePathEnabled" value="false" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
-      <option name="specName" value="cl.ravenhill.maps.MapTest" />
-      <option name="testPath" value="The biggest key in a map" />
+      <option name="specName" value="cl.ravenhill.teams.TeamTest" />
+      <option name="testPath" value="A team" />
       <option name="packageName" value="" />
       <option name="vmparams" value="" />
       <method v="2">
@@ -176,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotest.TeamTest: A team" />
         <item itemvalue="Kotest.CardsTest: A hand of cards (2)" />
         <item itemvalue="Kotest.CardsTest: A hand of cards (1)" />
         <item itemvalue="Kotest.CardsTest: A hand of cards" />
         <item itemvalue="Kotest.MapTest: The biggest key in a map (1)" />
-        <item itemvalue="Kotest.MapTest: The biggest key in a map" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +204,7 @@
       <workItem from="1720414565121" duration="43000" />
       <workItem from="1720479054794" duration="23000" />
       <workItem from="1720577248834" duration="5206000" />
-      <workItem from="1720643706641" duration="1497000" />
+      <workItem from="1720643706641" duration="1799000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor project structure and update dependencies&#10;&#10;Removed the `generalization` module and its related files, including configuration and tests. Added a new `symmetric-properties` module with initial implementations for Encode/Decode and list transformation functions. Updated project properties and configuration files accordingly.">
       <option name="closed" value="true" />
@@ -256,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720644766648</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="✨ Add Suit and Rank enums with test cases&#10;&#10;Introduced `Suit` and `Rank` enums to represent card suits and ranks, respectively. Added `CardsTest` class to validate card hand integrity using these enums. Updated IntelliJ configurations to include tests for these additions.">
+      <option name="closed" value="true" />
+      <created>1720645410392</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720645410392</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +276,7 @@
     <MESSAGE value="✨✅️ Add reverse function and unit tests&#10;&#10;Implemented a generic function to reverse lists and added comprehensive unit tests using Kotest. Updated IntelliJ run configurations to include the new tests." />
     <MESSAGE value="✨✅⚙️ Add capitalizeWords extension function and tests&#10;&#10;Implemented a Kotlin extension function capitalizeWords to capitalize the first letter of each word in a string. Comprehensive unit tests using Kotest ensure the function behaves as expected across various input scenarios. Updated IntelliJ run configurations to include these new tests for seamless integration into the development workflow." />
     <MESSAGE value="✨ Add `biggest` functions and tests&#10;&#10;Implemented functions to find the biggest integer in a list (`biggest`) and the biggest key in a map (`biggestKey`). Added comprehensive unit tests using Kotest to verify functionality. Updated project configuration files and IntelliJ run configurations accordingly." />
-    <option name="LAST_COMMIT_MESSAGE" value="✨ Add `biggest` functions and tests&#10;&#10;Implemented functions to find the biggest integer in a list (`biggest`) and the biggest key in a map (`biggestKey`). Added comprehensive unit tests using Kotest to verify functionality. Updated project configuration files and IntelliJ run configurations accordingly." />
+    <MESSAGE value="✨ Add Suit and Rank enums with test cases&#10;&#10;Introduced `Suit` and `Rank` enums to represent card suits and ranks, respectively. Added `CardsTest` class to validate card hand integrity using these enums. Updated IntelliJ configurations to include tests for these additions." />
+    <option name="LAST_COMMIT_MESSAGE" value="✨ Add Suit and Rank enums with test cases&#10;&#10;Introduced `Suit` and `Rank` enums to represent card suits and ranks, respectively. Added `CardsTest` class to validate card hand integrity using these enums. Updated IntelliJ configurations to include tests for these additions." />
   </component>
 </project>
