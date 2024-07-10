@@ -1,6 +1,11 @@
 rootProject.name = "pbt-kt"
 
-include(":symmetric-properties", ":filter")
+include(
+    ":introduction",
+    ":symmetric-properties",
+    ":filter",
+    ":assumptions"
+)
 
 pluginManagement {
     repositories {

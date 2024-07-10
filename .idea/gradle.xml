@@ -9,6 +9,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/assumptions" />
+            <option value="$PROJECT_DIR$/filter" />
+            <option value="$PROJECT_DIR$/introduction" />
             <option value="$PROJECT_DIR$/symmetric-properties" />
           </set>
         </option>
