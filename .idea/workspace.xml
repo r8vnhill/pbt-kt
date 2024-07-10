@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17a4d970-c7a9-4d4c-904a-7a4e649b9949" name="Changes" comment="Add Role enum and TeamTest class&#10;&#10;Introduced `Role` enum to define team roles (LEADER, DEVELOPER, TESTER). Created `TeamTest` class to validate the presence of these roles in a team using property-based testing with Kotest. Updated IntelliJ run configurations for the new test class.">
-      <change beforePath="$PROJECT_DIR$/generators/src/test/kotlin/cl/ravenhill/cards/CardsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/generators/src/test/kotlin/cl/ravenhill/cards/CardsTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generators/src/test/kotlin/cl/ravenhill/teams/TeamTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/generators/src/test/kotlin/cl/ravenhill/teams/TeamTest.kt" afterDir="false" />
+    <list default="true" id="17a4d970-c7a9-4d4c-904a-7a4e649b9949" name="Changes" comment="🚀🛠️ Remove unused import and comment out code cleanup&#10;&#10;Removed the unused `boolean matcher` import from CardsTest and commented out code blocks in CardsTest and TeamTest for future reference on better implementations. These changes enhance code clarity and maintainability.">
+      <change beforePath="$PROJECT_DIR$/generators/src/test/kotlin/cl/ravenhill/lists/ListTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/generators/src/test/kotlin/cl/ravenhill/collections/ListTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +72,7 @@
     "Kotest.EncodeDecodeTest: Encoding and decoding an input should return the original input.executor": "Run",
     "Kotest.MapTest: The biggest key in a map (1).executor": "Run",
     "Kotest.MapTest: The biggest key in a map.executor": "Run",
+    "Kotest.QueueTest: A queue.executor": "Run",
     "Kotest.ReverseTest: Reversing a list.executor": "Run",
     "Kotest.TeamTest: A team.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -100,7 +100,7 @@
       <recent name="cl.ravenhill.strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotest.TeamTest: A team">
+  <component name="RunManager" selected="Kotest.QueueTest: A queue">
     <configuration name="CardsTest: A hand of cards (1)" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
       <module name="pbt-kt.generators.test" />
       <option name="jrePath" value="" />
@@ -146,15 +146,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapTest: The biggest key in a map (1)" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+    <configuration name="QueueTest: A queue" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
       <module name="pbt-kt.generators.test" />
       <option name="jrePath" value="" />
       <option name="jrePathEnabled" value="false" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
-      <option name="specName" value="cl.ravenhill.maps.MapTest" />
-      <option name="testPath" value="The biggest key in a map" />
+      <option name="specName" value="cl.ravenhill.collections.QueueTest" />
+      <option name="testPath" value="A queue" />
       <option name="packageName" value="" />
       <option name="vmparams" value="" />
       <method v="2">
@@ -178,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotest.QueueTest: A queue" />
         <item itemvalue="Kotest.TeamTest: A team" />
         <item itemvalue="Kotest.CardsTest: A hand of cards (2)" />
         <item itemvalue="Kotest.CardsTest: A hand of cards (1)" />
         <item itemvalue="Kotest.CardsTest: A hand of cards" />
-        <item itemvalue="Kotest.MapTest: The biggest key in a map (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +208,7 @@
       <workItem from="1720414565121" duration="43000" />
       <workItem from="1720479054794" duration="23000" />
       <workItem from="1720577248834" duration="5206000" />
-      <workItem from="1720643706641" duration="2298000" />
+      <workItem from="1720643706641" duration="2702000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor project structure and update dependencies&#10;&#10;Removed the `generalization` module and its related files, including configuration and tests. Added a new `symmetric-properties` module with initial implementations for Encode/Decode and list transformation functions. Updated project properties and configuration files accordingly.">
       <option name="closed" value="true" />
@@ -274,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720645913160</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="🚀🛠️ Remove unused import and comment out code cleanup&#10;&#10;Removed the unused `boolean matcher` import from CardsTest and commented out code blocks in CardsTest and TeamTest for future reference on better implementations. These changes enhance code clarity and maintainability.">
+      <option name="closed" value="true" />
+      <created>1720646084059</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720646084059</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +298,7 @@
     <MESSAGE value="✨ Add `biggest` functions and tests&#10;&#10;Implemented functions to find the biggest integer in a list (`biggest`) and the biggest key in a map (`biggestKey`). Added comprehensive unit tests using Kotest to verify functionality. Updated project configuration files and IntelliJ run configurations accordingly." />
     <MESSAGE value="✨ Add Suit and Rank enums with test cases&#10;&#10;Introduced `Suit` and `Rank` enums to represent card suits and ranks, respectively. Added `CardsTest` class to validate card hand integrity using these enums. Updated IntelliJ configurations to include tests for these additions." />
     <MESSAGE value="Add Role enum and TeamTest class&#10;&#10;Introduced `Role` enum to define team roles (LEADER, DEVELOPER, TESTER). Created `TeamTest` class to validate the presence of these roles in a team using property-based testing with Kotest. Updated IntelliJ run configurations for the new test class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Role enum and TeamTest class&#10;&#10;Introduced `Role` enum to define team roles (LEADER, DEVELOPER, TESTER). Created `TeamTest` class to validate the presence of these roles in a team using property-based testing with Kotest. Updated IntelliJ run configurations for the new test class." />
+    <MESSAGE value="️ Remove unused import and comment out code cleanup&#10;&#10;Removed the unused `boolean matcher` import from CardsTest and commented out code blocks in CardsTest and TeamTest for future reference on better implementations. These changes enhance code clarity and maintainability." />
+    <option name="LAST_COMMIT_MESSAGE" value="️ Remove unused import and comment out code cleanup&#10;&#10;Removed the unused `boolean matcher` import from CardsTest and commented out code blocks in CardsTest and TeamTest for future reference on better implementations. These changes enhance code clarity and maintainability." />
   </component>
 </project>

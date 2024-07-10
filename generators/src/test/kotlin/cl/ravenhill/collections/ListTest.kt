@@ -1,4 +1,4 @@
-package cl.ravenhill.lists
+package cl.ravenhill.collections
 
 import cl.ravenhill.biggest.biggest
 import io.kotest.core.spec.style.FreeSpec
