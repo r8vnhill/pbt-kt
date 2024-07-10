@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17a4d970-c7a9-4d4c-904a-7a4e649b9949" name="Changes" comment="✨📦️✅ Add new modules: assumptions, filter, and introduction&#10;&#10;This commit introduces three new modules: assumptions, filter, and introduction, each with its own build.gradle.kts. It also includes initial Kotlin code and corresponding tests for string manipulation and merging functionality. Additionally, project configuration files have been updated to include these new modules.">
+    <list default="true" id="17a4d970-c7a9-4d4c-904a-7a4e649b9949" name="Changes" comment="✨✅ Add biggest function and corresponding tests&#10;&#10;Implemented the biggest function to find the max integer in a list, returning Int.MIN_VALUE for empty lists. Added comprehensive tests for the function using Kotest. Also included tests for string length properties.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +51,7 @@
     "Kotest.BiggestTest: The biggest element in a list.executor": "Run",
     "Kotest.EncodeDecodeTest: Encoding and decoding an input should return the original input (1).executor": "Run",
     "Kotest.EncodeDecodeTest: Encoding and decoding an input should return the original input.executor": "Run",
+    "Kotest.ReverseTest: Reversing a list.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -70,10 +71,11 @@
       <recent name="E:\Documentos\Code\Teaching\pbt-kt\filter" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="cl.ravenhill.reverse" />
       <recent name="cl.ravenhill.strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotest.BiggestTest: The biggest element in a list (1)">
+  <component name="RunManager" selected="Kotest.ReverseTest: Reversing a list">
     <configuration name="StringLengthTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -143,15 +145,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EncodeDecodeTest: Encoding and decoding an input should return the original input" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
-      <module name="pbt-kt.symmetric-properties.test" />
+    <configuration name="ReverseTest: Reversing a list" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="pbt-kt.introduction.test" />
       <option name="jrePath" value="" />
       <option name="jrePathEnabled" value="false" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
-      <option name="specName" value="cl.ravenhill.encode.EncodeDecodeTest" />
-      <option name="testPath" value="Encoding and decoding an input should return the original input" />
+      <option name="specName" value="cl.ravenhill.reverse.ReverseTest" />
+      <option name="testPath" value="Reversing a list" />
       <option name="packageName" value="" />
       <option name="vmparams" value="" />
       <method v="2">
@@ -160,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotest.ReverseTest: Reversing a list" />
         <item itemvalue="Kotest.BiggestTest: The biggest element in a list (1)" />
         <item itemvalue="Kotest.BiggestTest: The biggest element in a list" />
         <item itemvalue="Gradle.StringLengthTest" />
         <item itemvalue="Kotest.EncodeDecodeTest: Encoding and decoding an input should return the original input (1)" />
-        <item itemvalue="Kotest.EncodeDecodeTest: Encoding and decoding an input should return the original input" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +191,7 @@
       <workItem from="1720022086618" duration="502000" />
       <workItem from="1720414565121" duration="43000" />
       <workItem from="1720479054794" duration="23000" />
-      <workItem from="1720577248834" duration="2864000" />
+      <workItem from="1720577248834" duration="3934000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor project structure and update dependencies&#10;&#10;Removed the `generalization` module and its related files, including configuration and tests. Added a new `symmetric-properties` module with initial implementations for Encode/Decode and list transformation functions. Updated project properties and configuration files accordingly.">
       <option name="closed" value="true" />
@@ -207,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720578558828</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="✨✅ Add biggest function and corresponding tests&#10;&#10;Implemented the biggest function to find the max integer in a list, returning Int.MIN_VALUE for empty lists. Added comprehensive tests for the function using Kotest. Also included tests for string length properties.">
+      <option name="closed" value="true" />
+      <created>1720580382741</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720580382741</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +227,7 @@
     <MESSAGE value="Simplify project structure by removing old config files&#10;&#10;Removed obsolete Gradle, IntelliJ, and Kotlin configuration files and .gitignore entries. Added new directories and files representing different modules and projects to streamline the project setup." />
     <MESSAGE value="Refactor project structure and update dependencies&#10;&#10;Removed the `generalization` module and its related files, including configuration and tests. Added a new `symmetric-properties` module with initial implementations for Encode/Decode and list transformation functions. Updated project properties and configuration files accordingly." />
     <MESSAGE value="✨️✅ Add new modules: assumptions, filter, and introduction&#10;&#10;This commit introduces three new modules: assumptions, filter, and introduction, each with its own build.gradle.kts. It also includes initial Kotlin code and corresponding tests for string manipulation and merging functionality. Additionally, project configuration files have been updated to include these new modules." />
-    <option name="LAST_COMMIT_MESSAGE" value="✨️✅ Add new modules: assumptions, filter, and introduction&#10;&#10;This commit introduces three new modules: assumptions, filter, and introduction, each with its own build.gradle.kts. It also includes initial Kotlin code and corresponding tests for string manipulation and merging functionality. Additionally, project configuration files have been updated to include these new modules." />
+    <MESSAGE value="✨✅ Add biggest function and corresponding tests&#10;&#10;Implemented the biggest function to find the max integer in a list, returning Int.MIN_VALUE for empty lists. Added comprehensive tests for the function using Kotest. Also included tests for string length properties." />
+    <option name="LAST_COMMIT_MESSAGE" value="✨✅ Add biggest function and corresponding tests&#10;&#10;Implemented the biggest function to find the max integer in a list, returning Int.MIN_VALUE for empty lists. Added comprehensive tests for the function using Kotest. Also included tests for string length properties." />
   </component>
 </project>
