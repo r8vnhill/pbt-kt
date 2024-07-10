@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17a4d970-c7a9-4d4c-904a-7a4e649b9949" name="Changes" comment="Refactor project structure and update dependencies&#10;&#10;Removed the `generalization` module and its related files, including configuration and tests. Added a new `symmetric-properties` module with initial implementations for Encode/Decode and list transformation functions. Updated project properties and configuration files accordingly.">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="17a4d970-c7a9-4d4c-904a-7a4e649b9949" name="Changes" comment="✨📦️✅ Add new modules: assumptions, filter, and introduction&#10;&#10;This commit introduces three new modules: assumptions, filter, and introduction, each with its own build.gradle.kts. It also includes initial Kotlin code and corresponding tests for string manipulation and merging functionality. Additionally, project configuration files have been updated to include these new modules.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +46,9 @@
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Gradle.Build pbt-kt.executor": "Run",
+    "Gradle.StringLengthTest.executor": "Run",
+    "Kotest.BiggestTest: The biggest element in a list (1).executor": "Run",
+    "Kotest.BiggestTest: The biggest element in a list.executor": "Run",
     "Kotest.EncodeDecodeTest: Encoding and decoding an input should return the original input (1).executor": "Run",
     "Kotest.EncodeDecodeTest: Encoding and decoding an input should return the original input.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -69,8 +69,65 @@
       <recent name="E:\Documentos\Code\Teaching\pbt-kt\assumptions" />
       <recent name="E:\Documentos\Code\Teaching\pbt-kt\filter" />
     </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="cl.ravenhill.strings" />
+    </key>
   </component>
-  <component name="RunManager" selected="Kotest.EncodeDecodeTest: Encoding and decoding an input should return the original input (1)">
+  <component name="RunManager" selected="Kotest.BiggestTest: The biggest element in a list (1)">
+    <configuration name="StringLengthTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":introduction:test" />
+            <option value="--tests" />
+            <option value="&quot;cl.ravenhill.merge.StringLengthTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="BiggestTest: The biggest element in a list (1)" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="pbt-kt.introduction.test" />
+      <option name="jrePath" value="" />
+      <option name="jrePathEnabled" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="cl.ravenhill.biggest.BiggestTest" />
+      <option name="testPath" value="The biggest element in a list" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BiggestTest: The biggest element in a list" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="pbt-kt.introduction.test" />
+      <option name="jrePath" value="" />
+      <option name="jrePathEnabled" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="cl.ravenhill.biggest.BiggestTest" />
+      <option name="testPath" value="The biggest element in a list" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EncodeDecodeTest: Encoding and decoding an input should return the original input (1)" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
       <module name="pbt-kt.symmetric-properties.test" />
       <option name="jrePath" value="" />
@@ -103,6 +160,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotest.BiggestTest: The biggest element in a list (1)" />
+        <item itemvalue="Kotest.BiggestTest: The biggest element in a list" />
+        <item itemvalue="Gradle.StringLengthTest" />
         <item itemvalue="Kotest.EncodeDecodeTest: Encoding and decoding an input should return the original input (1)" />
         <item itemvalue="Kotest.EncodeDecodeTest: Encoding and decoding an input should return the original input" />
       </list>
@@ -129,7 +189,7 @@
       <workItem from="1720022086618" duration="502000" />
       <workItem from="1720414565121" duration="43000" />
       <workItem from="1720479054794" duration="23000" />
-      <workItem from="1720577248834" duration="886000" />
+      <workItem from="1720577248834" duration="2864000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor project structure and update dependencies&#10;&#10;Removed the `generalization` module and its related files, including configuration and tests. Added a new `symmetric-properties` module with initial implementations for Encode/Decode and list transformation functions. Updated project properties and configuration files accordingly.">
       <option name="closed" value="true" />
@@ -139,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719980515981</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="✨📦️✅ Add new modules: assumptions, filter, and introduction&#10;&#10;This commit introduces three new modules: assumptions, filter, and introduction, each with its own build.gradle.kts. It also includes initial Kotlin code and corresponding tests for string manipulation and merging functionality. Additionally, project configuration files have been updated to include these new modules.">
+      <option name="closed" value="true" />
+      <created>1720578558828</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720578558828</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +216,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Simplify project structure by removing old config files&#10;&#10;Removed obsolete Gradle, IntelliJ, and Kotlin configuration files and .gitignore entries. Added new directories and files representing different modules and projects to streamline the project setup." />
     <MESSAGE value="Refactor project structure and update dependencies&#10;&#10;Removed the `generalization` module and its related files, including configuration and tests. Added a new `symmetric-properties` module with initial implementations for Encode/Decode and list transformation functions. Updated project properties and configuration files accordingly." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor project structure and update dependencies&#10;&#10;Removed the `generalization` module and its related files, including configuration and tests. Added a new `symmetric-properties` module with initial implementations for Encode/Decode and list transformation functions. Updated project properties and configuration files accordingly." />
+    <MESSAGE value="✨️✅ Add new modules: assumptions, filter, and introduction&#10;&#10;This commit introduces three new modules: assumptions, filter, and introduction, each with its own build.gradle.kts. It also includes initial Kotlin code and corresponding tests for string manipulation and merging functionality. Additionally, project configuration files have been updated to include these new modules." />
+    <option name="LAST_COMMIT_MESSAGE" value="✨️✅ Add new modules: assumptions, filter, and introduction&#10;&#10;This commit introduces three new modules: assumptions, filter, and introduction, each with its own build.gradle.kts. It also includes initial Kotlin code and corresponding tests for string manipulation and merging functionality. Additionally, project configuration files have been updated to include these new modules." />
   </component>
 </project>
